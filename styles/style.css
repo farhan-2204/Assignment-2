@@ -3,6 +3,10 @@
 
 /* Shared styles */
 
+body{
+    margin: 0;
+}
+
 .inter-font{
     font-family: "Inter", sans-serif;
     font-size: 1.12vw;
@@ -227,7 +231,7 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    gap: 10px;
+    gap: 0.7vw;
 }
 
 .habit-img{
@@ -243,7 +247,8 @@
     margin-top: 1vw;
 }
   
-@media screen and (max-width: 580px){
+@media screen and (max-width: 700px){
+    /* shared styles */
     .nav-link{
         display: none;
     }
@@ -255,6 +260,15 @@
     .inter-font{
         font-size: 4.07125vw;
         letter-spacing: 0.127226vw;
+    }
+
+    .title-font{
+        font-size: 8.14249vw;
+    }
+    
+    .subtitle-font{
+        font-size: 3.3vw;
+        font-weight: 350;
     }
 
     /* Header related styles */
@@ -413,6 +427,47 @@
         height: 7.63359vw;         
         background: rgb(230, 83, 60); 
         border-radius: 50%;   
+    }
+
+    /* Habit section related styles */
+    .habit{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0;
+        margin-left: 7.1vw;
+        margin-right: 7.1vw;
+        height: 100vw;
+    }
+
+    .habit-title{
+        margin-left:  0;
+        margin-right:  0;
+    }
+
+    .habit-subtitle{
+        margin: 3.56234vw 2.79898vw 14.7583vw 2.79898vw;
+    }
+
+    .habit-cards{
+        flex-direction: column;
+        gap: 10.2vw;
+    }
+
+    .habit-card{
+        width: 58.7786vw;
+        gap: 2vw;
+    }
+
+    .habit-img{
+        height: 45vw;
+        width: 45vw;
+        border: 1.13vw  solid rgba(34, 34, 34);
+    }
+
+    .habit-card-title{
+        font-size: 4.58015vw;
+        margin-top: 3.66412vw;
     }
 }
 
