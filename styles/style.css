@@ -31,12 +31,14 @@ body{
 }
 
 .title-font{
+    line-height: 120%;
     font-size: 3.33333vw;
     font-weight: 900;
     color: white;
 }
 
 .subtitle-font{
+    line-height: 1.66667vw ;
     font-size: 1vw;
     font-weight: 400;
 }
@@ -207,7 +209,7 @@ body{
     margin-top: 6.94444vw;
     margin-left: 13.75vw;
     margin-right: 13.75vw;
-    height: 31.3889vw;
+    height: 34.3889vw;
 }
 
 .habit-title{
@@ -246,6 +248,41 @@ body{
     color: white;
     margin-top: 1vw;
 }
+
+/* join section related style */
+.join{
+    margin: 6.94444vw 13.1944vw;
+    height: 26vw;
+    border-radius: 1.25vw;
+    background: rgb(34, 34, 34);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.join-banner{
+    height: 20.1389vw;
+    width: 30.7639vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.join-btn{
+    width: 15.5556vw;
+    height: 3.75vw;
+    padding: 0;
+}
+
+.join-img{
+    width: 25.4167vw;
+    height: 21.6667vw;
+    border-radius: 1.25vw;
+}
+
+.join-img-1{
+    display: none;
+}
   
 @media screen and (max-width: 700px){
     /* shared styles */
@@ -269,6 +306,7 @@ body{
     .subtitle-font{
         font-size: 3.3vw;
         font-weight: 350;
+        line-height: 6.10687vw;
     }
 
     /* Header related styles */
@@ -437,7 +475,7 @@ body{
         margin-top: 0;
         margin-left: 7.1vw;
         margin-right: 7.1vw;
-        height: 100vw;
+        height: 368vw;
     }
 
     .habit-title{
@@ -468,6 +506,35 @@ body{
     .habit-card-title{
         font-size: 4.58015vw;
         margin-top: 3.66412vw;
+    }
+
+    /* join section related style */
+    .join{
+        margin: 16.7939vw 4.5vw;
+        height: 137vw;
+        border-radius: 4.58015vw ;
+        flex-direction: column;
+    }
+
+    .join-banner{
+        height: 67.1756vw ;
+        width: 73.028vw;
+    }
+
+    .join-btn{
+        width: 73.028vw;
+        height: 13.7405vw;
+    }
+
+    .join-img{
+        display: none;
+    }
+
+    .join-img-1{
+        display: block;
+        width: 73.028vw;
+        height: 43.257vw;
+        border-radius: 4.58015vw;
     }
 }
 
