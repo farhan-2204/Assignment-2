@@ -135,7 +135,7 @@
 }
 
 .banner-img{
-    position: absolute; 
+    position: relative; 
     top: 9.375vw;
     left: 60.9028vw;
     width: 24.2361vw; 
@@ -243,7 +243,7 @@
     margin-top: 1vw;
 }
   
-@media screen and (max-width: 500px){
+@media screen and (max-width: 580px){
     .nav-link{
         display: none;
     }
@@ -259,7 +259,7 @@
 
     /* Header related styles */
     .header{
-        height: 260.56vw;
+        height: 264.56vw;
     }
 
     .nav{
@@ -354,8 +354,8 @@
         position: absolute; 
         top: 134.606vw;
         left: 5.08906vw;
-        width: 87.8219vw;
-        height: 125.066vw;
+        width: 82.8219vw;
+        height: 129.066vw;
         
     }
 
