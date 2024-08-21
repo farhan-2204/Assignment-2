@@ -135,7 +135,7 @@
 }
 
 .banner-img{
-    position: relative; 
+    position: absolute; 
     top: 9.375vw;
     left: 60.9028vw;
     width: 24.2361vw; 
