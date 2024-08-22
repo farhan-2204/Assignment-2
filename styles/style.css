@@ -54,7 +54,7 @@ td, th{
 
 /* Header related styles */
 .header{
-    background: linear-gradient(180.00deg, rgb(11, 11, 11, .93), rgb(7, 7, 7, .95) 100%);
+    background: linear-gradient(180deg, rgba(40, 40, 40, .7), rgba(15, 15, 15, .9) 100%);
     width: 100%; 
     height: 49.7vw;
     position: relative;
@@ -85,11 +85,15 @@ td, th{
     width: 32.2917vw;
     border: 0.0694444vw solid rgba(255, 255, 255, 0.1);
     border-radius: 2.70833vw;
+    padding-right: 1.38889vw;
+    padding-left: .3vw;
+}
+
+.nav-item{
+    text-decoration: none;
     color: white;
     font-size: 1.25vw;
     font-weight: 400;
-    padding-right: 1.38889vw;
-    padding-left: .3vw;
 }
 
 .nav-btn{
@@ -120,6 +124,7 @@ td, th{
 .banner-d2{
     margin-top: 1.95vw;
     margin-bottom: 1.95vw;
+    line-height: 1.8vw;
 }
 
 .banner-btn{
@@ -427,6 +432,73 @@ td, th{
 
 #dot-hide{
     display: none;
+}
+
+/* Footer section related styles */
+.footer{
+    position: relative;
+    height: 34vw;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.footer-box{
+    position: absolute;
+    top: 4.58333vw;
+    left: 13.1944vw;
+    width: 73.5417vw;
+    height: 17.2917vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fitness{
+    width: 30.7639vw;
+}
+
+.fitness-title{
+    font-size: 4.86111vw;
+    color: rgb(230, 83, 60);
+    font-weight: 800;
+    font-style: italic;
+}
+
+.get-started{
+    width: 13.5694vw;
+    height: 17.2917vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.get-started-title{
+    color: white;
+    font-size: 2.23vw;
+    font-weight: 700;
+    margin-bottom: 1.6vw;
+}
+
+.get-started-subtitle{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.59722vw;
+}
+
+.footer-strip{
+    position: absolute;
+    top: 27.3611vw;
+    left: 13.125vw;
+    width: 73.6111vw;
+    height: 0.0694444vw;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.footnote{
+    position: absolute;
+    top: 29.8611vw;
+    left: 38.75vw;
+    width: 22.0833vw;
+    height: 1.66667vw;
+    font-size: 1.38889vw;
 }
   
 @media screen and (max-width: 700px){
@@ -829,6 +901,74 @@ td, th{
 
     #dot-hide{
         display: inline;
+    }
+
+    /* Footer section related styles */
+    .footer{
+        position: relative;
+        height: 250.891vw;
+        background: rgba(255, 255, 255, 0.1);
+    }
+
+    .footer-box{
+        position: absolute;
+        top: 11.1959vw;
+        left: 5.08906vw;
+        width: 89.8219vw;
+        height: 190.331vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .fitness{
+        width: 80.6616vw;
+    }
+
+    .fitness-title{
+        font-size: 17.8117vw;
+        color: rgb(230, 83, 60);
+        font-weight: 800;
+        font-style: italic;
+    }
+
+    .get-started{
+        width: 47vw;
+        height: 64vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .get-started-title{
+        color: white;
+        font-size: 8.14249vw;
+        font-weight: 700;
+        margin-bottom: 3vw;
+    }
+
+    .get-started-subtitle{
+        text-decoration: none;
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 5.85242vw;
+    }
+
+    .footer-strip{
+        position: absolute;
+        top: 219.847vw;
+        left: 4.83461vw;
+        width: 90.0763vw;
+        height: 0.5vw;        
+        background: rgba(255, 255, 255, 0.2);
+    }
+
+    .footnote{
+        position: absolute;
+        top: 230.28vw;
+        left: 9.41476vw;
+        width: 80.916vw;
+        height: 6.10687vw;
+        font-size: 5.1vw;
     }
 }
 
