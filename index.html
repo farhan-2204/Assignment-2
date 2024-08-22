@@ -91,6 +91,67 @@
             <img class="join-img" src="images/run.jpg" alt="running guy">
             <img class="join-img-1" src="images/run1.jpg" alt="running guy">
         </section>
+
+        <section class="bmi-text">
+            <div class="title-font">BMI Calculator</div>
+            <div class="subtitle-font">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</div>
+        </section>
+
+        <section class="bmi">
+            <div class="bmi-chart">
+                <div class="bmi-title-font">BMI Calculator Chart</div>
+                <table class="subtitle-font">
+                    <thead style="color: white; font-weight: 500;">
+                        <tr>
+                            <th style="text-align: start;">BMI</th> 
+                            <th>Weight Status</th>
+                        </tr>
+                    </thead>
+        
+                    <tbody>
+                        <tr>
+                            <td>Below 18.5</td> <td>Underweight</td>
+                        </tr>
+                        <tr>
+                            <td>18.5 - 24.9</td> <td>Healthy</td>
+                        </tr>
+                        <tr>
+                            <td>25.0 - 29.9</td> <td>Overweight</td>
+                        </tr>
+                        <tr>
+                            <td>30.0 - and Above</td> <td>Obese</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="bmi-calc">
+                <div class="bmi-title-font" style="margin-bottom: 0;">Calculate your BMI</div>
+                <div class="subtitle-font">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. </div>
+                <form class="bmi-form">
+                    <div class="bmi-calc-grid">
+                        <input class="box" type="number" placeholder="Height/cm" required>
+                        <input class="box" type="number" placeholder="Weight/kg" required>
+                        <input class="box" type="number" placeholder="Age" required>
+                        <select class="box bmi-calc-font">
+                            <option value="" disabled selected>Sex</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                        </select>
+                        <select class="box box-1 bmi-calc-font">
+                            <option value="" disabled selected>Select an activity factor</option>
+                            <option value="1.2">Sedentary</option>
+                            <option value="1.375">Lightly active</option>
+                            <option value="1.55">Moderately active</option>
+                            <option value="1.725">Very active</option>
+                            <option value="1.9">Extremely active</option>
+                        </select>
+                    </div>
+                    <input type="submit" class="banner-btn-1 join-btn bmi-btn" value="Calculate">
+                </form>
+            </div>
+        </section>
+
     </main>
 
     <footer>
