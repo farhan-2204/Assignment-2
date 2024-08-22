@@ -641,6 +641,7 @@ td, th{
     .banner-d2{
         width: 69.7201vw;
         height: 24.4275vw;
+        line-height: 5.25vw;
     }
 
     .banner-btn{
@@ -1076,7 +1077,7 @@ td, th{
         position: absolute;
         top: 230.28vw;
         left: 9.41476vw;
-        width: 80.916vw;
+        width: 89vw;
         height: 6.10687vw;
         font-size: 5.1vw;
     }
