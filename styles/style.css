@@ -434,6 +434,61 @@ td, th{
     display: none;
 }
 
+/* challenge section */
+.challenge-text{
+    margin: 0vw 26.6667vw 4.02778vw 26.6667vw;
+    text-align: center;
+}
+
+.challenge{
+    position: relative;
+    margin: 0vw 13.1944vw 6.11111vw 13.1944vw;
+    border-radius: 1.25vw;
+    background: rgba(255, 255, 255, 0.1);
+    height: 42vw;
+}
+
+.challenge-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    padding: 1.38889vw;
+    gap: 1.38889vw;
+}
+
+.challenge-box{
+    border-radius: 1.25vw;
+    width: 22vw;
+    height: 18.8889vw;
+}
+
+.challenge-name-grid{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    padding: 1.38889vw;
+    row-gap: 1vw;
+}
+
+.challenge-name-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 22.6vw;
+    height: 17.8889vw;
+    padding-left: 1.38889vw;
+    padding-bottom: 1.38889vw;
+}
+
+.team-font1{
+    font-weight: 900;
+    font-size: 1.8vw;
+    color: white;
+}
+
 /* Footer section related styles */
 .footer{
     position: relative;
@@ -890,9 +945,7 @@ td, th{
     }
 
     .team-font{
-        font-weight: 900;
         font-size: 5.1vw;
-        color: white;
     }
 
     #willi-hide{
@@ -901,6 +954,63 @@ td, th{
 
     #dot-hide{
         display: inline;
+    }
+
+    /* challenge section related style */
+    .challenge-text{
+        margin: 0vw 10.687vw 9.41476vw 10.687vw;
+        text-align: center;
+    }
+
+    .challenge{
+        position: relative;
+        margin: 0vw 5.08906vw 16.7939vw 5.08906vw;
+        border-radius: 4.58015vw;
+        height: 460vw;
+    }
+
+    .challenge-grid{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 0;
+        gap: 0;
+    }
+
+    .challenge-box{
+        border-radius: 4.58015vw;
+        width: 79.6438vw;
+        height: 69.2112vw;
+    }
+
+    .challenge-name-grid{
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 0;
+        row-gap: 0;
+    }
+
+    .challenge-name-box{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        width: 79.6438vw;
+        height: 59.2112vw;
+        padding: 0;
+        padding-block-end: 6vw;
+    }
+
+    .team-font1{
+        font-size: 5.1vw;
     }
 
     /* Footer section related styles */
