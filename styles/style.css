@@ -216,6 +216,11 @@ td, th{
     height: 2.77778vw ;            
     background: rgb(230, 83, 60); 
     border-radius: 50%;   
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8vw;
 }
 
 /* Habit section related styles */
@@ -738,6 +743,7 @@ td, th{
         height: 7.63359vw;         
         background: rgb(230, 83, 60); 
         border-radius: 50%;   
+        font-size: 5vw;
     }
 
     /* Habit section related styles */
